@@ -1,5 +1,5 @@
-#                   SYNTHIA
-#   The AI system to accelerate knowledge 
+#                   Hemingway
+#   The NLP based AI system to summarize text, draw analytics insights and provide paraphrasing.  
 
 ##########
 #LIBRARIES
@@ -26,8 +26,8 @@ from textattack.augmentation import WordNetAugmenter
 #PAGE SET UP
 #############
 
-st.set_page_config(page_title="SYNTHIA", 
-                   page_icon=":robot_face:",
+st.set_page_config(page_title="Hemingway", 
+                   page_icon=":pen:",
                    layout="wide",
                    initial_sidebar_state="expanded"
                    )
@@ -39,7 +39,7 @@ def p_title(title):
 #SIDEBAR
 ########
 
-st.sidebar.header('SYNTHIA, I want to :crystal_ball:')
+st.sidebar.header('Hemingway! I would like to :crystal_ball:')
 nav = st.sidebar.radio('',['Go to homepage', 'Summarize text', 'Paraphrase text', 'Analyze text'])
 st.sidebar.write('')
 st.sidebar.write('')
@@ -50,7 +50,8 @@ st.sidebar.write('')
 #CONTACT
 ########
 expander = st.sidebar.expander('Contact')
-expander.write("I'd love your feedback :smiley: Want to collaborate? Develop a project? Find me on [LinkedIn] (https://www.linkedin.com/in/lopezyse/), [Twitter] (https://twitter.com/lopezyse) and [Medium] (https://lopezyse.medium.com/)")
+expander.write("I would love for your feedback, contact me on linkedin [LinkedIn] (https://www.linkedin.com/in/ashwinrachha/))
+               
 
 #######
 #PAGES
@@ -61,24 +62,16 @@ expander.write("I'd love your feedback :smiley: Want to collaborate? Develop a p
 
 if nav == 'Go to homepage':
 
-    st.markdown("<h1 style='text-align: center; color: white; font-size:28px;'>Welcome to SYNTHIA!</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white; font-size:28px;'>Welcome to Hemingway!</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center; font-size:56px;'<p>&#129302;</p></h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center; color: grey; font-size:20px;'>Summarize, paraphrase, analyze text & more. Try our models, browse their source code, and share with the world!</h3>", unsafe_allow_html=True)
-    """
-    [![Star](https://img.shields.io/github/stars/dlopezyse/Synthia.svg?logo=github&style=social)](https://gitHub.com/dlopezyse/Synthia)
-    &nbsp[![Follow](https://img.shields.io/twitter/follow/lopezyse?style=social)](https://www.twitter.com/lopezyse)
-    &nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/lopezyse)
-    """
+
     st.markdown('___')
     st.write(':point_left: Use the menu at left to select a task (click on > if closed).')
     st.markdown('___')
     st.markdown("<h3 style='text-align: left; color:#F63366; font-size:18px;'><b>What is this App about?<b></h3>", unsafe_allow_html=True)
     st.write("Learning happens best when content is personalized to meet our needs and strengths.")
-    st.write("For this reason I created SYNTHIA :robot_face:, the AI system to accelerate and design your knowledge in seconds! Use this App to summarize and simplify content. Paste your text or upload your file and you're done. We'll process it for you!")     
-    st.markdown("<h3 style='text-align: left; color:#F63366; font-size:18px;'><b>Who is this App for?<b></h3>", unsafe_allow_html=True)
-    st.write("Anyone can use this App completely for free! If you like it :heart:, show your support by sharing :+1: ")
-    st.write("Are you into NLP? Our code is 100% open source and written for easy understanding. Fork it from [GitHub] (https://github.com/dlopezyse/Synthia), and pull any suggestions you may have. Become part of the community! Help yourself and help others :smiley:")
-
+    st.write("For this reason I created Hemingway :pen:, the AI system to accelerate and design your knowledge in seconds! Use this App to summarize and simplify content. Paste your text or upload your file and you're done. We'll process it for you!")     
 #-----------------------------------------
 
 #SUMMARIZE
@@ -342,3 +335,4 @@ if nav == 'Analyze text':
                         st.balloons()
 
 #-----------------------------------------
+st.text('Author : Ashwin Rachha')
