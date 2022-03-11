@@ -20,7 +20,6 @@ from sumy.summarizers.lex_rank import LexRankSummarizer
 from io import StringIO
 from textattack.augmentation import EmbeddingAugmenter
 from textattack.augmentation import WordNetAugmenter
-from PIL import Image
 
 #############
 #PAGE SET UP
