@@ -27,7 +27,7 @@ from textattack.augmentation import WordNetAugmenter
 #############
 
 st.set_page_config(page_title="Hemingway", 
-                   page_icon=":pen:",
+                   page_icon="https://endlessicons.com/wp-content/uploads/2012/12/fountain-pen-icon-614x460.png",
                    layout="wide",
                    initial_sidebar_state="expanded"
                    )
