@@ -50,8 +50,7 @@ st.sidebar.write('')
 #CONTACT
 ########
 expander = st.sidebar.expander('Contact')
-expander.write("I would love for your feedback, contact me on linkedin [LinkedIn] (https://www.linkedin.com/in/ashwinrachha/)")
-               
+expander.write("I'd love your feedback :smiley: Want to collaborate? Develop a project? Find me on [LinkedIn] (https://www.linkedin.com/in/ashwinrachha/)")
 
 #######
 #PAGES
