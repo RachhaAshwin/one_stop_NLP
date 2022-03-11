@@ -63,7 +63,7 @@ if nav == 'Go to homepage':
     st.markdown("<h1 style='text-align: center; color: white; font-size:28px;'>Welcome to Hemingway!</h1>", unsafe_allow_html=True)
     #st.markdown("<h3 style='text-align: center; font-size:56px;'<p>&#129302;</p></h3>", unsafe_allow_html=True)
     #st.markdown("<img src="https://endlessicons.com/wp-content/uploads/2012/12/fountain-pen-icon-614x460.png" style="zoom: 50%;" />", unsafe_allow_html=True)
-    col1, col2, col3 = st.columns([0.2, 5, 0.2])
+    col1, col2, col3 = st.columns([5, 5, 5])
     col2.image("https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/fountain_pen.png", width = 150)
     st.markdown("<h3 style='text-align: center; color: grey; font-size:20px;'>Summarize, paraphrase, analyze text & more. Try our models, browse their source code, and share with the world!</h3>", unsafe_allow_html=True)
 
