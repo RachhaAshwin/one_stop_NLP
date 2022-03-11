@@ -79,7 +79,7 @@ if nav == 'Go to homepage':
 ##########
 
 if nav == 'Summarize text':    
-    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with SYNTHIA &#129302;</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with Hemingway &#129302;</h4>", unsafe_allow_html=True)
     st.text('')
     p_title('Summarize')
     st.text('')
@@ -224,7 +224,7 @@ if nav == 'Summarize text':
 ###########
 
 if nav == 'Paraphrase text':
-    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with SYNTHIA &#129302;</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with Hemingway &#129302;</h4>", unsafe_allow_html=True)
     st.text('')
     p_title('Paraphrase')
     st.text('')
@@ -264,7 +264,7 @@ if nav == 'Paraphrase text':
 ########
        
 if nav == 'Analyze text':
-    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with SYNTHIA &#129302;</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color:grey;'>Accelerate knowledge with Hemingway &#129302;</h4>", unsafe_allow_html=True)
     st.text('')
     p_title('Analyze text')
     st.text('')
