@@ -49,7 +49,7 @@ st.sidebar.write('')
 #CONTACT
 ########
 expander = st.sidebar.expander('Contact')
-expander.write("I'd love your feedback :smiley: Want to collaborate? Develop a project? Find me on [LinkedIn] (https://www.linkedin.com/in/ashwinrachha/)")
+expander.write("I'd love your feedback :smiley: Please feel free to reach out to me @ [LinkedIn] (https://www.linkedin.com/in/ashwinrachha/)")
 
 #######
 #PAGES
@@ -71,7 +71,7 @@ if nav == 'Go to homepage':
     st.write(':point_left: Use the menu at left to select a task (click on > if closed).')
     st.markdown('___')
     st.markdown("<h3 style='text-align: left; color:#F63366; font-size:18px;'><b>What is this App about?<b></h3>", unsafe_allow_html=True)
-    st.write("Learning happens best when content is personalized to meet our needs and strengths.")
+    st.write("")
     st.write("For this reason I created Hemingway :pen:, the AI system to accelerate and design your knowledge in seconds! Use this App to summarize and simplify content. Paste your text or upload your file and you're done. We'll process it for you!")     
 #-----------------------------------------
 
