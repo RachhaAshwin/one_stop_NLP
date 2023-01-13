@@ -1,4 +1,4 @@
-# SYNTHIA
+# Hemingway
 ### The AI system to accelerate knowledge :robot:
 
 This project is based on the idea that AI can be used to accelerate our education :rocket:.
