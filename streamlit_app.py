@@ -72,7 +72,7 @@ if nav == 'Go to homepage':
     st.markdown('___')
     st.markdown("<h3 style='text-align: left; color:#F63366; font-size:18px;'><b>What is this App about?<b></h3>", unsafe_allow_html=True)
     st.write("")
-    st.write("For this reason I created Hemingway :pen:, the AI system to accelerate and design your knowledge in seconds! Use this App to summarize and simplify content. Paste your text or upload your file and you're done. We'll process it for you!")     
+    st.write("I love Natural Language Processing. Analyzing Literary texts and documents has been a passion of mine since my teenage years. Well I could't be a writer as I started pursuing a degree in CS. For this reason I created Hemingway :pen:, the AI system to accelerate and design your knowledge in seconds! Use this App to summarize and simplify content. Paste your text or upload your file and you're done. We'll process it for you!")     
 #-----------------------------------------
 
 #SUMMARIZE
